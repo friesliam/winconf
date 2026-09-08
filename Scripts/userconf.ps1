@@ -1,6 +1,6 @@
 # Do not run this script as administrator or certain settings may become admin settings
 # Change this to the correct file
-. "$PSScriptRoot\User\spaceorcas\user.ps1"
+. "$PSScriptRoot\..\User\spaceorcas\user.ps1"
 
 
 

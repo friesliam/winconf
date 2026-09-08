@@ -1,5 +1,5 @@
 # Change this to the correct file
-. "$PSScriptRoot\User\spaceorcas\root.ps1"
+. "$PSScriptRoot\..\User\spaceorcas\root.ps1"
 
 
 
@@ -42,7 +42,7 @@ Set-Reg "HKLM:\SYSTEM\CurrentControlSet\Control\TimeZoneInformation" "RealTimeIs
 
 
 # Settings Launch Page
-$settingsHomeTab = switch {  }
+# $settingsHomeTab = switch {  }
 #Set-Reg "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer" "SettingsPageVisibility" "hide:home"
 
 

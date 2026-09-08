@@ -1,7 +1,7 @@
 # Automatic File Sample submission
 # Windows 11 default = true
-# Options = [true] [false]
-$autoSampleSubmission = $false
+# Options = ["NeverSend"] ["AlwaysPrompt"] ["SendSafeSamples"] ["SendAllSamples"]
+$autoSampleSubmission = "NeverSend"
 # Settings -> Privacy & Security -> Windows Security -> Virus & threat protection -> Virus & threat protection settings -> Manage settings -> Automatic sample submission
 
 # Cloud-based Protection & Malicious Software Reporting

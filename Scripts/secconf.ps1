@@ -1,5 +1,5 @@
 # Change this to the correct file
-. "$PSScriptRoot\User\spaceorcas\user.ps1"
+. "$PSScriptRoot\..\User\spaceorcas\sec.ps1"
 
 
 
@@ -16,8 +16,6 @@ function Set-Reg {
 }
 
 
-# Automatic File Sample submission
-$autoSampleSubmission = 0
 # https://learn.microsoft.com/en-us/powershell/module/defender/set-mppreference
 Set-MpPreference -SubmitSamplesConsent $autoSampleSubmission
 
